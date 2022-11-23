@@ -1,0 +1,54 @@
+{
+  // 注释高亮插件
+  "better-comments.tags": [
+    {
+      "tag": "todo",
+      "color": "#fff",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#333136",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "#",
+      "color": "#18b566",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "qk",
+      "color": "#FFF",
+      "strikethrough": false,
+      "backgroundColor": "#FF8C00"
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    }
+  ],
+  "typescript.suggest.paths": true,
+}
