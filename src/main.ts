@@ -1,13 +1,14 @@
 /*
  * @Author: mfxhb
- * @Date: 2022-11-23 11:34:13
- * @LastEditTime: 2022-11-23 13:30:10
+ * @Date: 2022-11-27 10:21:33
+ * @LastEditTime: 2022-11-27 12:04:13
  * @Description:
  */
 import { createApp } from "vue";
-import "./style.css";
-import "normalize.css";
 import App from "./App.vue";
+import { useSuper } from "./super-series/userSuper";
+import "normalize.css";
 import { router } from "@/router/router";
+import "element-plus/theme-chalk/src/message.scss";
 
-createApp(App).use(router).mount("#app");
+createApp(App).use(useSuper).use(router).mount("#app");

@@ -3,14 +3,14 @@
     "target": "ESNext",
     "useDefineForClassFields": true,
     "module": "ESNext",
-    "moduleResolution": "Node",
-    "strict": true,
     "baseUrl": "./",
     "paths": {
       "@/*": [
         "./src/*"
       ]
     },
+    "moduleResolution": "Node",
+    "strict": true,
     "jsx": "preserve",
     "resolveJsonModule": true,
     "isolatedModules": true,

@@ -1,7 +1,7 @@
 /*
  * @Author: mfxhb
- * @Date: 2022-11-23 11:39:42
- * @LastEditTime: 2022-11-23 11:41:08
+ * @Date: 2022-11-27 10:47:46
+ * @LastEditTime: 2022-11-27 10:52:38
  * @Description:
  */
 import { RouteRecordRaw } from "vue-router";
@@ -11,6 +11,9 @@ const authcodeRoute: RouteRecordRaw = {
   path: "/authcode",
   name: "authcode",
   component: Authcode,
+  meta: {
+    alias: "验证码",
+  },
 };
 
 export { authcodeRoute };
